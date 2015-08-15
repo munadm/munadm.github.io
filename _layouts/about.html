@@ -5,6 +5,8 @@
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
       https://www.apache.org/licenses/LICENSE-2.0
 
   Unless required by applicable law or agreed to in writing, software
@@ -37,21 +39,7 @@
         </div>
         <div class="demo-blog__posts mdl-grid">
           <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
-            <div class="mdl-card__media mdl-color-text--grey-50" {% if page.bgimage %} style = "background-image: url({{ site.baseurl }}/images/{{ page.bgimage }})" {% else %} style = "background-image: url('{{ site.baseurl }}/images/noimg.png')"  {% endif %}>
-              <h3>{{ page.title }}</h3>
-            </div>
-            <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
-              <div class="minilogo" {% if site.avatar %} style = "background-image: url({{ site.avatar }})" {% else %} style = "background-image: url({{ site.baseurl }}/images/avatar.png)"
-              {% endif %} ></div>
-              <div>
-                <strong>Word-Birthed on</strong>
-                <span>{{ page.date | date: "%B %e, %Y" }}</span>
-              </div>
-              <!-- <div class="section-spacer"></div>
-              <div class="meta__favorites">425 <i class="material-icons">favorite</i></div>
-              <div><i class="material-icons">bookmark</i></div>
-              <div><i class="material-icons">share</i></div> -->
-            </div>
+            <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta"></div>
             <div class="mdl-color-text--grey-700 mdl-card__supporting-text">
               {{ content }}
             </div>
