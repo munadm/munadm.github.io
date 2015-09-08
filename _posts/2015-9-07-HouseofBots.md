@@ -4,10 +4,10 @@ bgimage: 972015.png
 title: Penn Apps XIII - Intro to Pivoting
 ---
 
-I spent this weekend at [PennApps] (http://2015f.pennapps.com/) . Its the largest hackathon of its kind and was hosted on the wells fargo center. I was mostly motivated because I wanted to go with my friends Chase Brewster Michael Green and Thomas Potenza
+I spent this weekend at [PennApps] (http://2015f.pennapps.com/) . Its the largest hackathon of its kind and was hosted on the wells fargo center. 
 
 
-It was probably the most fun I had at a hackathon. We got a tons of swag including hoodie pillows from Microsoft. I also got to meet a few great companies and notably try out some great tech.
+I was mostly motivated because I wanted to go with my friends Chase Brewster Michael Green and Thomas Potenza. It was probably the most fun I had at a hackathon. We got a tons of swag including hoodie pillows from Microsoft. I also got to meet a few great companies and notably try out some great tech.
 
 
 We started off with a very ambitious hack using IBM's new PaaS service Bluemix. However though the Watson API was really cool and the amount of services they were going to provide was downright magical, we couldn't use it due to the lack of datasets we would need
